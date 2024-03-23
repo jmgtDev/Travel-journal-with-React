@@ -1,0 +1,61 @@
+.trip{
+    display: flex;
+    gap: 20px;
+    width: 471px;
+    height: 168px;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 20px;
+}
+
+.tripImg{
+    width: 125px;
+    height: 168px;
+}
+
+.tripInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tripLoc{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.locIcon{
+    width: 7px;
+    height: 9.55px;
+}
+
+.tripCountry{
+    font-size: 10.24px;
+    padding-right: 9px;
+}
+
+.tripGoogleMaps{
+    font-size: 10.24px;
+    color: #918E9B;
+    text-decoration: underline;
+}
+
+.tripName{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.tripDate{
+    font-size: 10.24px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.tripDescription{
+    font-size: 10.24px;
+    padding-top: 5px;
+    text-align: justify;
+    max-height: 70px;
+    overflow: auto;
+}

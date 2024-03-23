@@ -1,0 +1,15 @@
+.header{
+background-color: #F55A5A;
+display: flex;
+color: white;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 15px;
+font-size: 14.46px;
+font-family: "Inter", sans-serif;
+}
+
+.globeIcon{
+    width: 24px;
+}
